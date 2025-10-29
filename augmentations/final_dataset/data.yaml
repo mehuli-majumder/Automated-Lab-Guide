@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['4by3 hand lever valve', '5by2 DCV', 'FRL unit', 'agriculturedrone', 'double acting pneumatic cylinder', 'inductive sensor', 'load', 'push button', 'quadcopter']
+
+roboflow:
+  workspace: lab-equipment-detector
+  project: real-time-object-detection-e6axv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lab-equipment-detector/real-time-object-detection-e6axv/dataset/1
